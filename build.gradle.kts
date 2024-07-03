@@ -11,6 +11,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    //testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
+    testImplementation("org.mockito:mockito-core:3.3.3")
+    testImplementation("org.mockito:mockito-junit-jupiter:3.3.3")
     implementation("org.jmolecules.integrations:jmolecules-archunit:0.20.0")
 }
 
